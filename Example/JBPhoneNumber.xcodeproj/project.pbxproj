@@ -28,9 +28,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F4EE70CC792BC22D74C8099 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0F4EE70CC792BC22D74C8099 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		35EC5CF83609395F868CA153 /* Pods-JBPhoneNumber_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBPhoneNumber_Example.debug.xcconfig"; path = "Target Support Files/Pods-JBPhoneNumber_Example/Pods-JBPhoneNumber_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		42003521DDFB6A5A8375EC64 /* JBPhoneNumber.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JBPhoneNumber.podspec; path = ../JBPhoneNumber.podspec; sourceTree = "<group>"; };
+		42003521DDFB6A5A8375EC64 /* JBPhoneNumber.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JBPhoneNumber.podspec; path = ../JBPhoneNumber.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* JBPhoneNumber_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JBPhoneNumber_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +45,7 @@
 		78953BE089A8C7A7AF38657B /* Pods-JBPhoneNumber_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBPhoneNumber_Tests.release.xcconfig"; path = "Target Support Files/Pods-JBPhoneNumber_Tests/Pods-JBPhoneNumber_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8C153DA3007EFE923C9DBF3D /* Pods-JBPhoneNumber_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBPhoneNumber_Example.release.xcconfig"; path = "Target Support Files/Pods-JBPhoneNumber_Example/Pods-JBPhoneNumber_Example.release.xcconfig"; sourceTree = "<group>"; };
 		A6DBDC96FE569A428A45C862 /* Pods-JBPhoneNumber_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JBPhoneNumber_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JBPhoneNumber_Tests/Pods-JBPhoneNumber_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AA6C9AB93835338B809C0DA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AA6C9AB93835338B809C0DA2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D0B1971E66186B7523109DDE /* Pods_JBPhoneNumber_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JBPhoneNumber_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				A6DBDC96FE569A428A45C862 /* Pods-JBPhoneNumber_Tests.debug.xcconfig */,
 				78953BE089A8C7A7AF38657B /* Pods-JBPhoneNumber_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
