@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JBPhoneNumber_Example' do
+  pod 'JBPhoneNumber', :path => '../'
+
+  target 'JBPhoneNumber_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
