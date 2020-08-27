@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://github.com/jubakong/JBPhoneNumber'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # s.screenshots     = 'www.example.com/scree1nshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jubakong' => 'jubakong@gmail.com' }
   s.source           = { :git => 'https://github.com/jubakong/JBPhoneNumber.git', :tag => s.version.to_s }
@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Classes/**/*.swift'
+  s.source_files = 'JBPhoneNumber/Classes/**/*.swift'
   
   s.swift_version = '5.0'
   
