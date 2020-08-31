@@ -1,0 +1,22 @@
+{
+  "name": "JBPhoneNumber",
+  "version": "0.1.0",
+  "summary": "A short description of JBPhoneNumber.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jubakong/JBPhoneNumber",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jubakong": "jubakong@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/jubakong/JBPhoneNumber.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JBPhoneNumber/Classes/**/*"
+}

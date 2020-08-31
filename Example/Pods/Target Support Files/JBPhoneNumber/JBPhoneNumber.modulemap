@@ -1,0 +1,6 @@
+framework module JBPhoneNumber {
+  umbrella header "JBPhoneNumber-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_JBPhoneNumber_Tests {
+  umbrella header "Pods-JBPhoneNumber_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

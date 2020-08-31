@@ -1,0 +1,16 @@
+PODS:
+  - JBPhoneNumber (0.1.0)
+
+DEPENDENCIES:
+  - JBPhoneNumber (from `../`)
+
+EXTERNAL SOURCES:
+  JBPhoneNumber:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JBPhoneNumber: 833d9b3b46ddcf6ae5b8fc36f079969f4c916a21
+
+PODFILE CHECKSUM: e687a0bac69ab626c115eca72744b1fe68812ee4
+
+COCOAPODS: 1.10.0.beta.1
