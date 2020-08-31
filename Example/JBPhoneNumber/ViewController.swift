@@ -10,9 +10,7 @@ import UIKit
 import JBPhoneNumber
 
 class ViewController: UIViewController {
-  
-  
-  
+ 
     override func viewDidLoad() {
         super.viewDidLoad()
       
